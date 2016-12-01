@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
   s.authors = 'Leo Natan'
   s.source = { :git => 'https://github.com/LeoNatan/LNPopupController.git', :tag => s.version.to_ss }
   s.source_files = 'LNPopupController//*.{h,m}', 'LNPopupController///*.{h,m}'
-  s.public_header_files = 'LNPopupController//.h'
-  s.private_header_files = 'LNPopupController/__/Private/.h'
   s.resources = 'LNPopupController/*.xcassets'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
