@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/LeoNatan/LNPopupController'
   s.authors = 'Leo Natan'
   s.source = { :git => 'https://github.com/LeoNatan/LNPopupController.git', :tag => s.version.to_ss }
-  s.source_files = 'LNPopupController//*.{h,m}', 'LNPopupController///*.{h,m}'
+  s.source_files = 'LNPopupController/**/*'
   s.resources = 'LNPopupController/*.xcassets'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
