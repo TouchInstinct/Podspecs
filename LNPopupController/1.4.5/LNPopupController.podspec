@@ -1,16 +1,13 @@
 Pod::Spec.new do |s|
-s.name = 'LNPopupController'
-s.version = '1.4.5'
-s.license = 'MIT'
-s.summary = 'A framework for presenting view controllers as popups of other view controllers.'
-s.description = 'LNPopupController is a framework for presenting view controllers as popups of other view controllers, much like the Apple Music and Podcasts apps.'
-s.homepage = 'https://github.com/LeoNatan/LNPopupController'
-s.author = 'Leo Natan'
-s.source = { :git => 'https://github.com/LeoNatan/LNPopupController.git', :tag => 'v' << s.version.to_s }
-s.source_files = 'LNPopupController//*.{h,m}', 'LNPopupController///*.{h,m}'
-s.public_header_files = 'LNPopupController//.h'
-s.private_header_files = 'LNPopupController/__/Private/.h'
-s.resources = 'LNPopupController/*.xcassets'
-s.requires_arc = true
-s.ios.deployment_target = '8.0'
+  s.name         = "LNPopupController"
+  s.version      = "1.4.5"
+  s.summary      = "Popup controller such as the one in Apple Music."
+  s.homepage     = "https://github.com/LeoNatan/LNPopupController"
+  s.license      = "MIT"
+  s.author       = { "LeoNatan" => "" }
+  s.platform     = :ios, '8.0'
+  s.source       = { :git => "https://github.com/LeoNatan/LNPopupController.git", :tag => '1.4.5' }
+  s.source_files = 'Pod/LNPopupController/LNPopupController/*','Pod/LNPopupController/LNPopupController/Private/*'
+  s.requires_arc = true
 end
+
