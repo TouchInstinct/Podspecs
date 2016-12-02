@@ -1,13 +1,16 @@
 Pod::Spec.new do |s|
   s.name         = "LNPopupController"
-  s.version      = "1.4.5"
-  s.summary      = "Popup controller such as the one in Apple Music."
+  s.version      = "1.4.6"
+  s.summary      = "LNPopupController is a framework for presenting view controllers as popups of other view controllers, much like the Apple Music and Podcasts apps."
+  s.description  = <<-DESC
+                   DESC
+
   s.homepage     = "https://github.com/LeoNatan/LNPopupController"
-  s.license      = "MIT"
-  s.author       = { "LeoNatan" => "" }
-  s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/LeoNatan/LNPopupController.git", :tag => '1.4.5' }
-  s.source_files = 'Pod/LNPopupController/LNPopupController/*','Pod/LNPopupController/LNPopupController/Private/*'
-  s.requires_arc = true
+  s.license      = "MIT (example)"
+  s.author             = { "Leo Natan" => "lnatan@wix.com" }
+  s.source       = { :git => "https://github.com/LeoNatan/LNPopupController.git", :tag => "v#{s.version}" }
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.exclude_files = "Classes/Exclude"
+
 end
 
