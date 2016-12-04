@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'LNPopupController/*.{h,m}', 'LNPopupController/**/*.{h,m}'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
+  
+  s.dependency 'MarqueeLabel', '3.0.0'
 end
