@@ -14,3 +14,4 @@ Pod::Spec.new do |s|
   s.dependency "RxCocoa", '3.0.1'
   s.dependency "RxAlamofire", '3.0.0'
   s.dependency "ObjectMapper", '~> 2.1'
+end
