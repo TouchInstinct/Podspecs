@@ -10,7 +10,7 @@ mkdir $new_version_dir
 
 cp $podspec_path $new_version_dir
 
-branch="$pod_$pod_$version"
+branch="$pod/$version"
 
 git branch $branch
 
