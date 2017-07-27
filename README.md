@@ -24,4 +24,4 @@ pod repo push https://github.com/TouchInstinct/Podspecs PodspecName.podspec
  - в ней создать папку, название которой будет текущая версия библиотеки
  - в нее сложить файл `.podspec` c названием библиотеки.
 
-*Например*, библиотека "MyFavouritePod" версии 1.0.0. Путь к файлу должен выглядеть следующим образом: `MyFavouritePod/1.0.0/MyFavouritePod.podspec`
+*Например*, библиотека **MyFavouritePod** версии **1.0.0**. Путь к файлу должен выглядеть следующим образом: `MyFavouritePod/1.0.0/MyFavouritePod.podspec`
