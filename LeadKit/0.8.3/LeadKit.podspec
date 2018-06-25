@@ -91,23 +91,23 @@ Pod::Spec.new do |s|
 
     ss.exclude_files = [
       "Sources/Classes/Views/SeparatorRowBox/*",
-      "Sources/Classes/Views/SeparatorCell/*",
       "Sources/Classes/Views/EmptyCell/*",
       "Sources/Classes/DataLoading/PaginationDataLoading/PaginationWrapper.swift",
       "Sources/Extensions/NetworkService/NetworkService+ActivityIndicator-UIApplication.swift",
       "Sources/Extensions/DataLoading/PaginationDataLoading/*",
       "Sources/Extensions/TableKit/**/*.swift",
-      "Sources/Extensions/UIApplication/UIApplication+OpenUrlSupport.swift",
-      "Sources/Extensions/UIApplication/UIApplication+Cellular.swift",
-      "Sources/Extensions/Array/Array+SeparatorRowBoxExtensions.swift",
-      "Sources/Extensions/Views/SeparatorCell/*",
-      "Sources/Protocols/Views/SeparatorCell/*"
+      "Sources/Extensions/UIKit/UIApplication/UIApplication+OpenUrlSupport.swift",
+      "Sources/Extensions/UIKit/UIApplication/UIApplication+Cellular.swift",
+      "Sources/Extensions/Array/Array+SeparatorRowBoxExtensions.swift"
     ]
 
     ss.dependency "RxSwift", '~> 4.1'
     ss.dependency "RxCocoa", '~> 4.1'
     ss.dependency "RxAlamofire", '~> 4.1'
     ss.dependency "SwiftDate", '~> 4.5'
+
+    ss.ios.dependency "TableKit", '~> 2.6'
+    
   end
 
   s.default_subspec = 'Core'
