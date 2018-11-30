@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/jpotts18"
   s.platform     = :ios
   s.ios.deployment_target	= '8.0'
-  s.source       = { :git => "https://github.com/petropavel13/SwiftValidator.git", :tag => "5.0.0" }
+  s.source       = { :git => "https://github.com/scoreyou/SwiftValidator.git", :branch => "master" }
   s.source_files  = "SwiftValidator/**/*.swift"
   s.exclude_files = "Validator/AppDelegate.swift"
   s.frameworks   = ['Foundation', 'UIKit']
