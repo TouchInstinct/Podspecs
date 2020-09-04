@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
 
     ss.dependency "RxSwift", '~> 5.1.0'
     ss.dependency "RxCocoa", '~> 5.1.0'
-    ss.dependency "RxAlamofire", '~> 5.2.0'
+    ss.dependency "RxAlamofire", '~> 5.6.0'
     ss.dependency "SwiftDate", '~> 6'
 
     ss.ios.dependency "TableKit", '~> 2.8'
