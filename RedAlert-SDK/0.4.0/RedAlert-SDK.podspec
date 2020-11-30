@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   s.dependency "DAO/Realm"
   s.dependency "Starscream", '~> 3.1.0'
-  s.dependency "HTTPTransport", '~> 5.0'
+  s.dependency "HTTPTransport", '~> 5'
 end
